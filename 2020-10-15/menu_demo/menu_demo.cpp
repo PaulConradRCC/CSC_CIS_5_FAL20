@@ -6,7 +6,7 @@ using namespace std;
 
 int main() {
 
-    int choice; // could this be a char instead?
+    char choice; // could this be a char instead?
     do
     {        
         // output the menu title, change it to suit your program
@@ -26,27 +26,27 @@ int main() {
 
         switch(choice)
         {
-            case 1:
+            case '1':
                 // do option #1
                 cout << "You chose option #1" << endl;
                 break;           
                 
-            case 2:
+            case '2':
                 // do option #2
                 cout << "You chose option #2" << endl;
                 break;
 
-            case 3:
+            case '3':
                 // do option #3
                 cout << "You chose option #3" << endl;
                 break;
 
-            case 4:
+            case '4':
                 // do option #4
                 cout << "You chose option #4" << endl;
                 break;
 
-            case 5:
+            case '5':
                 // do option #5
                 cout << "Awwww, you really want to quit this program (Y=Yes, other chars=No)? ";
                 char exit_choice;
