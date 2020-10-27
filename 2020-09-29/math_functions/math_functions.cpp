@@ -38,10 +38,10 @@ int main() {
     cout << "Enter the rise and run of a slope (separate with a space): ";
     cin >> rise >> run;
     
-    double percent_grade = rise * 100.0 / run;
+    double percent_grade = rise / run;
     double grade_angle = atan(percent_grade) * RAD_TO_DEG;
     
-    cout << "The " << percent_grade << "% grade is a " << grade_angle << " degree slope." << endl;
+    cout << "The " << percent_grade*100 << "% grade is a " << grade_angle << " degree slope." << endl;
     
     return 0;
 }
