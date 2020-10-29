@@ -26,8 +26,9 @@ int main() {
     
     // prompt
     cout << "Enter the name of the file you want to write: ";
-    getline(cin, filename, '\n'); // this allows us to have user provide a filename with spaces in it!
-        
+    //getline(cin, filename, '\n'); // this allows us to have user provide a filename with spaces in it!
+    cin >> filename;
+    
     // prompt the user for data
     cout << "Enter a char: ";
     cin >> a_char;
