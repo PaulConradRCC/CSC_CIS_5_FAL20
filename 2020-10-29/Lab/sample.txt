@@ -1,0 +1,54 @@
+PDS-S0 | DataType | 0 (Meteorological products)
+PDS-S1 | Originating center | 8 (US-NWSTG)
+PDS-S1 | GRIB Master Tables Version | 1
+PDS-S1 | GRIB Local Tables Version | 0
+PDS-S1 | Significance of reference time | 1 (Start of Forecast)
+PDS-S1 | Reference Time | 06/02/2013 06:00:00 UTC
+PDS-S1 | Operational Status | 0 (Operational products)
+PDS-S1 | Type of Data | 1 (Forecast products)
+PDS-S4 | Product type | 0 (Analysis at a horizontal layer at a point in time)
+PDS-S4 | Category Description | 0 (Temperature)
+PDS-S4 | Category Sub-Description | 0 (Temperature [K])
+PDS-S4 | Output grid, (COMPUTED) English unit is | [F]
+PDS-S4 | Generation process | 2 (Forecast)
+PDS-S4 | Background generating process ID | 0
+PDS-S4 | Forecast generating process ID | 0
+PDS-S4 | Forecast time in hours | 3.000000
+PDS-S4 | Type of first fixed surface | 1 (Ground or water surface [-])
+PDS-S4 | Value of first fixed surface | 0.000000
+GDS | Number of Points | 739297
+GDS | Projection Type | 30 (Lambert Conformal)
+GDS | Shape of Earth | sphere
+GDS | Radius | 6371.200000 (km)
+GDS | Nx (Number of points on parallel) | 1073
+GDS | Ny (Number of points on meridian) | 689
+GDS | Lat1 | 20.191999
+GDS | Lon1 | 238.445999
+GDS | u/v vectors relative to | easterly/northerly
+GDS | Dx | 5079.406000 (m)
+GDS | Dy | 5079.406000 (m)
+GDS | Input GRIB2 grid, scan mode | 64 (0100)
+GDS | Output grid, scan mode | 64 (0100)
+GDS | (.flt file grid), scan mode | 0 (0000)
+GDS | Output grid, scan i/x direction | positive
+GDS | Output grid, scan j/y direction | positive
+GDS | (.flt file grid), scan j/y direction | negative
+GDS | Output grid, consecutive points in | i/x direction
+GDS | Output grid, adjacent rows scan in | same direction
+GDS | MeshLat | 25.000000
+GDS | OrientLon | 265.000000
+GDS | Which pole is on the plane | North
+GDS | bi-polar projection | No
+GDS | Tangent Lat1 | 25.000000
+GDS | Tangent Lat2 | 25.000000
+GDS | Southern Lat | -90.000000
+GDS | Southern Lon | 0.000000
+Info | Packing that was used | 3 (Grid point data - complex packing and spatial differencing)
+Info | Decimal Scale Factor | 1
+Info | Binary Scale Factor | 0
+Info | Original field type | 0 (Floating point)
+Info | Missing value management | 1 (Primary missing value included with data)
+Info | Primary missing value | 9999.000000
+Info | Detected number of Missing | 370662
+Info | Field minimum value | 18.050000
+Info | Field maximum value | 94.910000
